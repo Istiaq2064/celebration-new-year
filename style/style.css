@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+/* Holiday section style here */
+
+.holiday-section-container {
+    width: 1320px;
+    height: 896px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1060px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: inter;
+
+}
+
+.holiday-text h5 {
+    color: rgb(7, 2, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-text h1 {
+    color: rgb(7, 2, 1);
+    font-size: 72px;
+    font-weight: 900;
+    font-weight: 90px;
+    letter-spacing: 0;
+    font-family: Merriweather;
+}
+
+#holiday {
+    color: red;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.5) font-size: 20px;
+    font-weight: 500;
+    font-weight: 90px;
+    letter-spacing: 0;
+    font-family: inter;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 74.5%;
+}
+
+.gift-box {
+    width: 670px;
+    height: 570px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.girl-images {
+    width: 229px;
+    height: 433px;
+    position: relative;
+    left: 31.5%;
+    top: 13%;
+
+}
+
+.discount {
+    position: absolute;
+    bottom: 25%;
+    left: 56%;
+    z-index: 1;
+}
+
+/* portfolio style starts */
+.portfoli-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text h1 {
+    color: rgba(7, 2, 17, 0.5) font-size: 84px;
+    font-weight: 900;
+    font-weight: 90px;
+    letter-spacing: 0;
+    font-family: Merriweather;
+    margin-bottom: 4px;
+
+}
+
+.portfolio-text h5 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Merriweather;
+    margin-bottom: 4px;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.5) font-size: 20px;
+    font-weight: 500;
+    font-weight: 90px;
+    letter-spacing: 0;
+    font-family: Merriweather;
+    margin-bottom: 4px;
+
+}
+
+.items {
+    width: 424px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.items img {
+    width: 100%;
+    height: 100%;
+}
+
+.protfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* footer container style */
+
+.footer-container {
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: black;
+    margin: 0 auto;
+    padding: 180px;
+   
+}
+
+
+.contact {
+    display: flex;
+    color: #fff;
+    
+
+}
+
+.footer-first-section {
+    display: flex;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hr2 {
+    width: 90%;
+    margin: 0 auto;
+  
+
+}
+
+.icons {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.footer-end-text {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: azure;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 30px;
+
+}
